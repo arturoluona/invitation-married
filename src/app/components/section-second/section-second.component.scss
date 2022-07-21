@@ -1,11 +1,11 @@
 .bg-section {
-  background-image: url("../../../assets/section-first.jpg");
+  background-image: url("../../../assets/section-second.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .bg-blur {
-  background-color: #231f2087;
+  background-color: rgba(183, 183, 183, 0.53);
   backdrop-filter: blur(4px);
 }
