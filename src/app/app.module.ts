@@ -8,6 +8,7 @@ import { MainComponent } from './components/main/main.component';
 import { SectionFirstComponent } from './components/section-first/section-first.component';
 import { SectionSecondComponent } from './components/section-second/section-second.component';
 import { SectionThirdComponent } from './components/section-third/section-third.component';
+import { SectionFourthComponent } from './components/section-fourth/section-fourth.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { SectionThirdComponent } from './components/section-third/section-third.
     SectionFirstComponent,
     SectionSecondComponent,
     SectionThirdComponent,
+    SectionFourthComponent,
   ],
   imports: [
     BrowserModule,
