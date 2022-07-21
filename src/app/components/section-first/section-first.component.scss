@@ -1,0 +1,11 @@
+.bg-section-first {
+  background-image: url("../../../assets/section-first.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-blur {
+  background-color: #231f2087;
+  backdrop-filter: blur(4px);
+}
