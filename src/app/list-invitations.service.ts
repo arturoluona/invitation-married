@@ -15,7 +15,7 @@ export class ListInvitationsService {
     },
     {
       id: 'f1290186a5d0b1ceab27f4e77c0c5d68',
-      name: ['Adonis', 'Michelle'],
+      name: ['Adonis', 'Michel'],
       title: 'Adonis'
     },
     {
