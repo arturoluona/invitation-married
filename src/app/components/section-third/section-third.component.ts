@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import {ListInvitationsService} from "../../list-invitations.service";
+import {ListInvitations} from "../../ListInvitations";
+import {ActivatedRoute} from "@angular/router";
 
 @Component({
   selector: 'app-section-third',
@@ -7,9 +10,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SectionThirdComponent implements OnInit {
 
-  constructor() { }
+  listInvitations!: ListInvitations;
+
+  constructor(private invitationService: ListInvitationsService,
+              private route: ActivatedRoute) {}
 
   ngOnInit(): void {
+    const { id } = this.route.snapshot.params;
+    const user = this.invitationService.listInvitations.find((item) => item.id == id);
+    this.listInvitations = user as ListInvitations;
   }
 
 }

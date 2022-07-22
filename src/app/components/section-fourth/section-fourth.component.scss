@@ -1,0 +1,11 @@
+.bg-section {
+  background-image: url("../../../assets/section-fourth.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-blur {
+  background-color: rgba(135, 163, 255, 0.38);
+  backdrop-filter: blur(4px);
+}
