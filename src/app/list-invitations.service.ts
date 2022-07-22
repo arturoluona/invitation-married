@@ -195,5 +195,25 @@ export class ListInvitationsService {
       name: ['Jose Daniel'],
       title: 'Jose Daniel'
     },
+    {
+      id: 'f3c555f2hgvrtcyi9767835f2b4f35d',
+      name: ['Antonio Hajjat'],
+      title: 'Tony'
+    },
+    {
+      id: 'f44445f2hgvrtcyi9767835f2bnf35d',
+      name: ['Diego Roeder'],
+      title: 'Diego'
+    },
+       {
+      id: 'f44445f2rgg2i9767835f2bnf35d',
+      name: ['Marlon Posada'],
+      title: 'Marlon'
+    },
+     {
+      id: 'f44445f2rgg2gg3835f2bnf35v',
+      name: ['David Romero'],
+      title: 'David'
+    },
   ];
 }
