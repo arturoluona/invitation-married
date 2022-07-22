@@ -4,7 +4,6 @@ import {NgxSimpleCountdownModule} from "ngx-simple-countdown";
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { MainComponent } from './components/main/main.component';
 import { SectionFirstComponent } from './components/section-first/section-first.component';
 import { SectionSecondComponent } from './components/section-second/section-second.component';
 import { SectionThirdComponent } from './components/section-third/section-third.component';
@@ -13,7 +12,6 @@ import { SectionFourthComponent } from './components/section-fourth/section-four
 @NgModule({
   declarations: [
     AppComponent,
-    MainComponent,
     SectionFirstComponent,
     SectionSecondComponent,
     SectionThirdComponent,

@@ -16,9 +16,11 @@ export class SectionThirdComponent implements OnInit {
               private route: ActivatedRoute) {}
 
   ngOnInit(): void {
-    const { id } = this.route.snapshot.params;
-    const user = this.invitationService.listInvitations.find((item) => item.id == id);
-    this.listInvitations = user as ListInvitations;
+    this.route.queryParamMap.subscribe((param) => {
+      const id = param.get('id');
+      const user = this.invitationService.listInvitations.find((item) => item.id == id);
+      this.listInvitations = user as ListInvitations;
+    });
   }
 
 }
