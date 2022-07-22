@@ -4,8 +4,8 @@
     ¡Nos complace avisarte que estás invitado/a a nuestra boda por la iglesia! <br>
     Será la confirmación de la vida que ya estamos viviendo juntos. <br> Esperamos que asistas ya que si recibiste está invitación es porque eres parte de nuestros seres queridos.
   </p>
-  <div class="bg-blur text-lg text-center mt-10" *ngIf="listInvitations">
-    <ul class=" py-2 px-5">
+  <div class="bg-blur text-lg mt-10 py-2 px-5" *ngIf="listInvitations">
+    <ul class="ml-2">
       <li *ngFor="let item of listInvitations.name" class="list-disc">{{item}}</li>
     </ul>
   </div>
