@@ -220,5 +220,20 @@ export class ListInvitationsService {
       name: ['Pedro Moreno'],
       title: 'Pedro'
     },
+     {
+      id: 'f44445f2rgg2gg3835f2b231b',
+      name: ['Leifer Mendez', 'Mariana Rolfo', 'Estela Olguin'],
+      title: 'Leifer'
+    },
+    {
+      id: 'd32145f2rgg2gg3835f2bnf11a',
+      name: ['Makarena Gónzalez y familia'],
+      title: 'Maka'
+    },
+     {
+      id: 'd321664v2gg3835f2v44s',
+      name: ['Rosalbita', 'Maria Gabriela'],
+      title: 'Rosalba'
+    },
   ];
 }
