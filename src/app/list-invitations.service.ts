@@ -235,5 +235,10 @@ export class ListInvitationsService {
       name: ['Rosalbita', 'Maria Gabriela'],
       title: 'Rosalba'
     },
+    {
+      id: 'd321664v2gg383fd431',
+      name: ['José Manuel'],
+      title: 'Jose Manuel'
+    },
   ];
 }
