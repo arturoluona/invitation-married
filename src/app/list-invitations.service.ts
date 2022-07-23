@@ -136,6 +136,11 @@ export class ListInvitationsService {
       title: 'Devs - Wonder'
     },
     {
+      id: '92eb5ffee6aeskdjvuis8348931c777531578f',
+      name: ['Carlos'],
+      title: 'Devs - Carlos'
+    },
+    {
       id: '7b8b965ad4bca0e41ab51de7b31363a1',
       name: ['Mauricio'],
       title: 'Devs - Mauricio'
