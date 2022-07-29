@@ -245,5 +245,15 @@ export class ListInvitationsService {
       name: ['José Manuel'],
       title: 'Jose Manuel'
     },
+     {
+      id: 'd321664v2gg383frrv1',
+      name: ['Maria Luisa Benitez y José Guerrero'],
+      title: 'Maria Luisa'
+    },
+    {
+      id: 'g321654v2gg383frr44',
+      name: ['José Alberto', 'Gabriela' ],
+      title: 'Rebeco'
+    },
   ];
 }
