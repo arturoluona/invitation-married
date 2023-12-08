@@ -1,0 +1,32 @@
+.line-icon {
+    background-color: rgb(125 71 59);
+    width: 4px;
+    height: 100%;
+}
+
+.line-icon::after {
+    content: "🤍";
+    height: 23px;
+    background-color: rgb(125 71 59);
+    width: 23px;
+    position: absolute;
+    left: -9px;
+    bottom: -5px;
+    border-radius: 50%;
+}
+
+.line-icon::before {
+    content: "🤍";
+    height: 23px;
+    background-color: rgb(125 71 59);
+    width: 23px;
+    position: absolute;
+    left: -9px;
+    top: -5px;
+    border-radius: 50%;
+}
+
+svg {
+    height: 70px;
+    width: 70px;
+}
