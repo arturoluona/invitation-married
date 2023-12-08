@@ -18,6 +18,7 @@
     "@angular/platform-browser": "^14.0.0",
     "@angular/platform-browser-dynamic": "^14.0.0",
     "@angular/router": "^14.0.0",
+    "angular-audio": "^1.7.3",
     "ngx-device-detector": "^4.0.0",
     "ngx-simple-countdown": "^13.0.1",
     "rxjs": "~7.5.0",

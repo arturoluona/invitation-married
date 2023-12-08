@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 import {NgxSimpleCountdownModule} from "ngx-simple-countdown";
 
 import { AppRoutingModule } from './app-routing.module';
@@ -20,7 +22,8 @@ import { SectionFourthComponent } from './components/section-fourth/section-four
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgxSimpleCountdownModule
+    NgxSimpleCountdownModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
