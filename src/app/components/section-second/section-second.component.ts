@@ -6,4 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./section-second.component.scss']
 })
 export class SectionSecondComponent {
+                
 }

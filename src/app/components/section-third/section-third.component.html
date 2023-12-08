@@ -1,12 +1,25 @@
-<div class="bg-section h-full w-full flex flex-col justify-center items-center p-2">
-  <h1 class="bg-blur text-4xl font-family-paris px-3 py-2">Querido invitado...</h1>
-  <div class="bg-blur text-lg mt-10 py-2 px-5" *ngIf="listInvitations">
-    <ul class="ml-2">
-      <li *ngFor="let item of listInvitations.name" class="list-disc">{{item}}</li>
-    </ul>
+<div class="w-full">
+  <div class="bg-section w-full">
+    <div class="p-10">
+      <h1 class="font-family-paris text-3xl color-principal text-center">Nos Casamos!</h1>
+      <p class="color-principal text-center pt-2">
+        Diciembre
+        <span class="font-bold px-3">|</span>
+        25
+        <span class="font-bold px-3">|</span>
+        2023
+      </p>
+      <p class="color-principal text-center font-semibold py-3 text-2xl tracking-wide">RECEPCIÓN</p>
+      
+      <div class="px-3"><img class="w-full h-[200px] rounded" src="../../../assets/reception.jpg" alt=""></div>
+      
+      <p class="py-2 color-principal text-center font-semibold italic">Finca El Paraiso</p>
+      <p class="color-principal text-center">Los Mirtos, El Cobre</p>
+      <p class="py-2 color-principal text-center font-semibold">4:00 PM</p>
+    </div>
   </div>
-  <p class="bg-blur text-lg md:w-2/4 text-center mt-10 py-2 px-5">
-    ¡Nos complace avisarte que estás invitado/a a nuestra boda por la iglesia! <br>
-    Será la confirmación de la vida que ya estamos viviendo juntos. <br> Esperamos que asistas ya que si recibiste está invitación es porque eres parte de nuestros seres queridos.
-  </p>
+
+  <div class="flex flex-col justify-center items-center bg-flower-color py-5">
+    <a target="_blank" href="https://maps.app.goo.gl/kYZv4Dhkzw8TyDcu8" class="bg-button-flower px-4 py-3 rounded-lg w-3/4 text-center color-principal font-semibold">VER MAPA</a>
+  </div>
 </div>

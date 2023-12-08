@@ -1,17 +1,28 @@
-<div class="bg-section h-full w-full flex flex-col justify-center items-center p-2">
+<div class="bg-section h-[80vh] w-full flex flex-col justify-between items-center p-4">
 
-    <h1 class="text-white text-2xl md:text-4xl bg-blur py-2 px-6 font-family-paris">
-      Arturo Luna & Raiza González
+    <h1 class="text-white text-center text-4xl py-2 px-6 text-shadow">
+      NUESTRA BODA
     </h1>
+
+    <div class="flex flex-col items-center p-3 rounded-3xl text-shadow">
+      <p class="font-family-paris text-5xl text-white ">Adonis</p>
+      <p class="text-2xl text-white">Luna Zambrano</p>
+
+      <div class="w-full flex gap-3 items-center justify-center">
+        <hr class="bg-white w-[30vw] border border-gray-400 h-[4px] rounded-full">
+        <p class="font-family-paris text-2xl text-white">&</p>
+        <hr class="bg-white w-[30vw] border border-gray-400 h-[4px] rounded-full">
+      </div>
+
+      <p class="font-family-paris text-5xl text-white">Michell</p>
+      <p class="text-2xl text-white">Landaeta Sánchez</p>
+    </div>
+
     <div
-      class="mt-10"
       simpleCountdown
-      [dateTo]="1660942800"
+      [endMessage]="'¿Ya llegaste? es Tardee Mueveteee!!'"
+      [dateTo]="1703516400"
       language="en"
       [styles]="stylesDate"
     ></div>
-    <p class="bg-blur text-white text-base text-center mt-10 py-2 px-5">
-      19/08/2022 5:00pm <br>
-      <span class="text-xs">Viernes</span>
-    </p>
 </div>
