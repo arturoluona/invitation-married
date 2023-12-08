@@ -14,6 +14,7 @@ import { SectionFifthComponent } from './components/section-fifth/section-fifth.
 import { SectionSixthComponent } from './components/section-sixth/section-sixth.component';
 import { SectionSeventhComponent } from './components/section-seventh/section-seventh.component';
 import { SectionEighthComponent } from './components/section-eighth/section-eighth.component';
+import { SectionNinethComponent } from './components/section-nineth/section-nineth.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { SectionEighthComponent } from './components/section-eighth/section-eigh
     SectionSixthComponent,
     SectionSeventhComponent,
     SectionEighthComponent,
+    SectionNinethComponent,
   ],
   imports: [
     BrowserModule,
