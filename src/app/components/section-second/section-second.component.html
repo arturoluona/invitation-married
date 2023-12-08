@@ -3,12 +3,14 @@
   <p class="text-md text-white text-center pt-2">Dale <span class="font-semibold italic">Play</span> para escuchar nuestra cancion</p>
 
   <div class="pt-4 flex justify-center w-full">
-    <audio #audioPlayer controls>
+    <audio #audioPlayer controls autoplay muted>
       <source src="../../assets/music/song.mp3" type="audio/mpeg">
       Your browser does not support the audio element.
     </audio>
   </div>
   <hr class="bg-white w-full mt-10">
+
+  <div id="play-audio"></div>
 
   <div class="w-full px-5 pt-5 mt-10">
     <div class="w-full bg-white rounded text-center px-8 py-10 flex flex-col justify-center tracking-widest color-principal font-semibold italic">
