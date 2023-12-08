@@ -5,7 +5,7 @@
 }
 
 .line-icon::after {
-    content: "🤍";
+    content: "♡";
     height: 23px;
     background-color: rgb(125 71 59);
     width: 23px;
@@ -13,10 +13,11 @@
     left: -9px;
     bottom: -5px;
     border-radius: 50%;
+    color: white;
 }
 
 .line-icon::before {
-    content: "🤍";
+    content: "♡";
     height: 23px;
     background-color: rgb(125 71 59);
     width: 23px;
@@ -24,6 +25,7 @@
     left: -9px;
     top: -5px;
     border-radius: 50%;
+    color: white;
 }
 
 svg {
