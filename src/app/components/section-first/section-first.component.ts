@@ -20,11 +20,14 @@ export class SectionFirstComponent implements OnInit {
     margin:0 1px;
   `
 
+  date = new Date(2023, 11, 25, 15).getTime()
+  parsedDate = 0
+
   constructor() {
   }
 
   ngOnInit(): void {
-
+    this.parsedDate = parseInt(String(this.date).slice(0, -3))
   }
 
 }
