@@ -20,7 +20,7 @@ export class SectionFirstComponent implements OnInit {
     margin:0 1px;
   `
 
-  date = new Date(2023, 11, 25, 15).getTime()
+  date = new Date('2023-12-25T15:00:00-04:00').getTime()
   parsedDate = 0
 
   constructor() {
